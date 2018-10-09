@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita3">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="241dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/asianparagames" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="351dp"
+        android:layout_height="327dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Panitia Penyelenggara Asian Para Games 2018 (Inapgoc) berencana untuk menambah jatah tiket pembukaan. Inapgoc akan menambah 2.000 tiket untuk pembukaan Asian Para Games 2018. Raja mengatakan penambahan itu dilakukan karena tiket yang dijual sebelumnya telah terjual habis sejak Rabu (3/10/2018). Padahal, kata dia, animo masyarakat yang ingin menyaksikan pembukaan Asian Para Games 2018 masih besar. Oleh karena itu, Inapgoc memutuskan untuk menambah tiket dengan mengefisiensikan killing seat (persediaan kursi terakhir) agar slot untuk kursi tambahan bisa tersedia. Sebanyak 2.000 tiket tambahan itu akan didistribusikan untuk semua kategori. Inapgoc tengah mengupayakan agar pembelian sudah bisa dilakukan mulai hari ini secara daring. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+</android.support.constraint.ConstraintLayout>

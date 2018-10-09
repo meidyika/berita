@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="240dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/anakkrakataumeletus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text='di Selat Sunda, Kabupaten Lampung Selatan, Provinsi Lampung, meletus 101 kali selama Senin, 8 Oktober hingga Selasa dini hari tadi. Pada malam hari, terlihat dari CCTV, sinar api aliran lava pijar ke selatan dan lontaran pijar setinggi sekitar 100-200 meter ke segala arah. Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) menginfokan, terdengar suara dentuman dan getaran dengan intensitas lemah hingga kuat dirasakan di Pos Pengamatan Gunung Anak Krakatau. Namun, ombak laut tenang. Ini sesuai dengan laporan aktivitas Gunung Anak Krakatau dari petugas Kementerian ESDM, Badan Geologi, PVMBG Pos Pengamatan Gunung Anak Krakatau, Deny Mardiono, yang diterima BMKG.  "Aktivitas kegempaan terpantau letusan 101 kali, amplitudo 30-48 mm, durasi 53-162 detik. Tremor Menerus (Microtremor) terekam dengan amplitudo 3-52 mm (dominan 45 mm)," lansir Antara. '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</android.support.constraint.ConstraintLayout>

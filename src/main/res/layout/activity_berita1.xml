@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="247dp"
+        android:layout_height="168dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pesawat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="381dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Pesawat latih milik vokalis band Endank Soekamti, Erix 'Soekamti', jatuh dari ketinggian 5.000 kaki di Gading, Gunungkidul kemarin sore. Erix berada di dalam pesawat microlight tipe sky ranger itu saat peristiwa terjadi. Dia duduk sebagai kopilot. Selasa (4/9/2018) . Anggota Jogja Flying Club (JFC), Faslan Havisha (pilot) dan Erix Soekamti (kopilot) melakukan persiapan latihan terbang rutin. Di hanggar JFC kompleks Lanud Adisutjipto, keduanya briefing, cek kesehatan, serta cek kondisi pesawat.  Ketika terbang di ketinggian 5.000 kaki, tiba-tiba mesin pesawat mati. Pilot declare emergency dan berniat mendarat darurat di Lanud Gading.  Namun pesawat tidak bisa sampai ke landasan Gading. Menurut Tjandra, dalam kondisi seperti itu maka pilot wajib mencari tempat mendarat darurat paling aman yang tidak berpotensi menimbulkan korban lain di darat dan bisa menyelamatkan pilot-kopilot. Saksi mata, Toto Rusmindarto mengatakan peristiwa itu terjadi pukul 16.00. Pesawat jatuh dan tersangkut pohon di pekarangan di RT 12/RW 01, Gading, Playen, Gunungkidul. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</android.support.constraint.ConstraintLayout>
